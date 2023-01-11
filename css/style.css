@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+
+.header-top {
+  background-color: rgb(26, 25, 25);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+}
+.header-list li {
+  font-size: 14px;
+  padding: 5px;
+}
+.header-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* TOP CONTAINER */
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.top-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 25, 25);
+  border-radius: 15px;
+  width: 50%;
+}
+.search {
+  background-color: rgb(26, 25, 25);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  padding: 10px;
+  width: 90%;
+  border-radius: 15px;
+  outline: none;
+}
+.top-container .search {
+  border: none;
+}
+.btn-header-search {
+  font-size: 30px;
+  width: 5%;
+  background-color: rgb(26, 25, 25);
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.bi {
+  color: black;
+  font-size: 25px;
+}
+
+/* Header Menu */
+
+.header-menu {
+  border-top: 5px solid rgb(26, 25, 25);
+  padding: 0 10%;
+}
+.category-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 54px;
+  width: 100%;
+  align-items: center;
+}
+.category-list {
+  display: flex;
+  list-style: none;
+}
+.category-list li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(26, 25, 25);
+}
+/* Main/Container principal */
+
+.sale-img img {
+  width: 100%;
+}
+
+/* destaque da semana */
+.destaque {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 10px;
+  margin-left: 45px;
+  border-left: 5px solid black;
+}
+.destaque-semana {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  text-align: center;
+  list-style: none;
+}
+.destaque-semana img {
+  width: 300px;
+  padding: 5px;
+}
+.description-product {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  height: 50vh;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.footer-institutional a {
+  text-decoration: none;
+  color: white;
+}
+.contact-list a {
+  text-decoration: none;
+  color: white;
+}
+.footer-container li {
+  list-style: none;
+}
+.footer__title {
+  padding-bottom: 10px;
+}
+/* regra pra tela menor*/
+@media screen and (max-width: 700px) {
+  .header-top {
+    height: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .header-list {
+    display: none;
+  }
+}
