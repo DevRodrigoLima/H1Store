@@ -193,6 +193,8 @@
   .top-search {
     width: 30%;
   }
+}
+@media screen and (max-width: 600px) {
   .footer-institutional {
     display: none;
   }
