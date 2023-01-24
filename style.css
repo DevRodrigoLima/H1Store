@@ -150,9 +150,8 @@
   justify-content: space-around;
   background-color: black;
   color: white;
-  height: 50vh;
   margin-top: 10px;
-  padding-top: 10px;
+  padding: 10px 0 10px;
 }
 .footer-institutional a {
   text-decoration: none;
