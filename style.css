@@ -193,6 +193,9 @@
   .top-search {
     width: 30%;
   }
+  .footer-institutional {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1210px) {
